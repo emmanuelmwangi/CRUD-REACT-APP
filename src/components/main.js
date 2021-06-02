@@ -95,6 +95,7 @@ export default function App() {
     <div className="App">
       <h1>Users</h1>
       <AddUser onAdd={onAdd} />
+      {!users && <h2>Loading</h2>}
       {users.map((user) => (
         <User
           id={user.id}

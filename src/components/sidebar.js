@@ -1,5 +1,4 @@
 import React from "react";
-import { BsFillGrid3X3GapFill } from "react-icons/bs";
 const Sidebar = () => {
   return (
     <div className="sidebar">
